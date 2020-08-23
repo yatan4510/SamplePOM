@@ -1,0 +1,7 @@
+com\samplecrm\qa\pages\HomePage.class
+com\samplecrm\qa\pages\RegistrationPage.class
+com\samplecrm\qa\base\TestBase.class
+com\samplecrm\qa\pages\LoginPage.class
+com\samplecrm\qa\pages\ContactsPage.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\samplecrm\qa\util\TestUtil.class

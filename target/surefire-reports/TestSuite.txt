@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 228.28 s <<< FAILURE! - in TestSuite
+selectSingleContactsTest(com.samplecrm.qa.testcases.ContactsPageTest)  Time elapsed: 25.015 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@_name='Divya Dutta'])[1]/parent::td/preceding-sibling::td/input"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-8RJMFA9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Yatan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53007}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a982d88b9894c2860012fa191b882487
+*** Element info: {Using=xpath, value=(//a[@_name='Divya Dutta'])[1]/parent::td/preceding-sibling::td/input}
+	at com.samplecrm.qa.testcases.ContactsPageTest.selectSingleContactsTest(ContactsPageTest.java:44)
+
