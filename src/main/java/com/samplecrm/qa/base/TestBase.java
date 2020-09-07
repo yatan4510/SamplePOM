@@ -10,17 +10,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.samplecrm.qa.util.TestUtil;
 
-
+//sampleBranch comment
 public class TestBase {
 
 	
-	public  static WebDriver driver;
+	public static WebDriver driver;
 	public static Properties prop;
 	
 	public TestBase() {
 		try {
 			prop = new Properties();
 			FileInputStream input= new FileInputStream("C:\\Users\\Yatan\\eclipse-workspace\\SamplePOMTest\\src\\main\\java\\com\\samplecrm\\qa\\config\\config.properties");
+			 
 			prop.load(input);
 			
 		}catch(IOException e)
